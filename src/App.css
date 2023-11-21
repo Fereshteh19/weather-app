@@ -1,0 +1,57 @@
+
+
+.App {
+  margin:20px auto;
+  border-style: outset;
+  border-radius: 5px;
+  width: 400px;
+  padding: 10px 30px;
+}
+
+
+h1{
+  text-align: center;
+}
+
+.searchContainer{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+input{
+  padding: 7px 100px 7px 5px;
+  margin-right: 20px;
+}
+ button{
+  padding: 8px 20px;
+  margin-left: 20px;
+  background-color: #64165b;
+  border: none;
+  border-radius: 3px;
+  color: aliceblue;
+ }
+
+ h1{
+  color: #64165b;
+ }
+
+ .gridContainer {
+  display: grid;
+  column-gap: 80px;
+  grid-template-columns: auto  auto;
+  margin-top: 20px;
+}
+
+.gridContainer div{
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #64165b;
+}
+
+
+ 
+.gridContainer div p{
+  color:blueviolet
+}
